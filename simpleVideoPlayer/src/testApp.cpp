@@ -4,7 +4,7 @@
 void testApp::setup(){
 
 	ofSetFrameRate(55);
-	video.loadMovie("test.mp4");
+	video.loadMovie( ofToDataPath( "fingers.mov", true ) );
 	video.play();
 
 	
